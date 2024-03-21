@@ -1,0 +1,12 @@
+.pagenumber{
+    float:left;
+}
+
+.next_button{
+    float:right;
+    margin-right:20px
+}
+
+footer {
+    margin-top: 20px;
+}
