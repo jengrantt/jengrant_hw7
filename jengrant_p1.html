@@ -11,20 +11,20 @@
     <main>
         <form>
             <label for="country">
-                My home country is <input type="text" id="country" required autofocus />
+                My home country is <input type="text" id="country" autofocus /> 
             </label>
         </form> <br>
 
         <form>
             <label for="town">
-                My home town is <input type="text" id="town" required autofocus />
+                My home town is <input type="text" id="town" required autofocus /> <span class="required"> required </span>
             </label>
         </form> <br>
 
         <form>
             <label for="state">
                 My home state is 
-                <select name="state" id="state-select">
+                <select name="state" id="state-select"> 
                     <option value="" selected>-- choose state/territory --</option>
                     <option value="AL">AL</option>
                     <option value="AK">AK</option>
@@ -87,6 +87,19 @@
                 </select>
             </label>
         </form> <br>
+        <form>
+            <label>
+                My impression of the BAIS major is
+                <select name="impression" id="impression-Likert"> 
+                    <option value="" selected>-- choose option --</option> 
+                    <option value="5">Very positive</option>
+                    <option value="4">Somewhat positive</option>
+                    <option value="3">Neutral</option>
+                    <option value="2">Somewhat negative</option>
+                    <option value="1">Very negative</option>
+                </select> <span class="required"> required </span>
+            </label>
+        </form>
     </main>
     <footer>
         <span class="page_number"> page 1 of 3 </span>
